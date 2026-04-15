@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Image Scraper Pro",
+  "version": "1.0",
+  "description": "Scrapes images from any website",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
