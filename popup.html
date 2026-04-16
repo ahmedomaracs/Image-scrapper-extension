@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Image Scraper</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h3>Image Scraper</h3>
-  <button id="getImages">Get Images</button>
-  <div id="images"></div>
+  <div class="container">
+
+    <div class="header">
+      <h1>Image Scraper</h1>
+      <p>Extract images from any page</p>
+    </div>
+
+    <button id="getImages" class="button">Scan Page</button>
+
+    <div class="stats">
+      <span>Images</span>
+      <span id="imageCount">0</span>
+    </div>
+
+    <div id="images" class="grid"></div>
+
+    <div id="emptyState" class="empty">
+      No images yet
+    </div>
+
+  </div>
 
   <script src="popup.js"></script>
 </body>
